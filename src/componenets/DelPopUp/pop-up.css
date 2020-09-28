@@ -1,0 +1,32 @@
+.pop-up{
+    display: flex;
+    flex-direction: column;
+    width: 15%;
+    background-color: #ffffff;
+    position: absolute;
+    top: 20px;
+    right: 50px;
+}
+
+.pop-up span{
+    text-align: center;
+    padding: 3px 0;
+    cursor: pointer;
+    font-size: 13px;
+}
+
+.pop-up span:nth-child(1){
+    border: 1px solid  #dfdfdf;
+}
+
+.pop-up span:nth-child(2){
+    border-left: 1px solid  #dfdfdf;
+    border-right: 1px solid  #dfdfdf;
+    border-bottom: 1px solid  #dfdfdf;
+    transition: 0.25s;
+}
+
+.pop-up span:hover{
+    background-color: #dfdfdf;
+    color: #fff;
+}

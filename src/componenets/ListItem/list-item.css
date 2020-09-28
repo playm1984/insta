@@ -1,0 +1,115 @@
+.list-item{
+    width: 100%;
+    margin: 40px 0;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid  #dfdfdf;
+    position: relative;
+}
+
+.head{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    border-bottom: 1px solid  #dfdfdf;
+}
+
+.head .dote{
+    cursor: pointer;
+}
+
+.head-inner{
+    display: flex;
+    align-items: center;
+}
+
+.head-inner img{
+    padding-right: 15px;
+}
+
+.image{
+    height: 500px;
+}
+
+.image img{
+    width: 100%;
+    overflow: hidden;
+}
+
+.footer{
+    padding: 15px;
+    border-top: 1px solid  #dfdfdf;
+    border-bottom: 1px solid  #dfdfdf;
+    background-color: #fff;
+}
+
+.footer img{
+    cursor: pointer;
+}
+
+.footer img:nth-child(2){
+    padding: 0 20px;
+}
+
+.post span{
+    display: block;
+    font-weight: 700;
+    font-size: 17px;
+    padding: 10px 0;
+}
+
+.like{
+    width: 25px;
+    height: 25px;
+    cursor: pointer;
+}
+
+.comIcon{
+    width: 25px;
+    height: 25px;
+    cursor: pointer;
+    margin-left: 15px;
+}
+
+.comment span{
+    display: block;
+    padding: 5px 0;
+    font-size: 15px;
+}
+
+.add{
+    background-color: #fff;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.add [type='text']{
+    border: 1px solid #fff;
+    outline: none;
+    padding: 20px 15px;
+    width: 80%;
+    font-size: 14px;
+    font-weight: 500;
+    color: rgb(153, 153, 153);
+    letter-spacing: 0.5px;
+}
+
+.add [type='button']{
+    width: 20%;
+    outline: none;
+    background-color: #fff;
+    text-decoration: none;
+    border: none;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: bold;
+    color: rgb(110, 161, 255);
+    letter-spacing: 0.5px;
+}
+
+.add [type='button']:hover{
+    color: rgb(56, 125, 255);
+}

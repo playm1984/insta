@@ -1,0 +1,42 @@
+.header{
+    background-color: #fff;
+    border-bottom: 1px solid #dfdfdf;
+    padding: 15px 0;
+    position: fixed;
+    width: 100%;
+    z-index: 10;
+}
+
+.inner{
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto; 
+    align-items: center;
+}
+
+.inner img{
+    cursor: pointer;
+}
+
+.icon img:not(:last-child){
+    margin-right: 30px;
+}
+
+.inner input{
+    border: 1px solid #dfdfdf;
+    border-radius: 3px;
+    outline: none;
+    padding: 5px 10px
+}
+
+.inner input::placeholder{
+    text-align: center;
+}
+
+
+.inner input:focus::placeholder {
+    color: transparent;
+    text-align: start;
+}
+
